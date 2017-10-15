@@ -33,6 +33,7 @@ function releaseNoobs()
 		pPrivs.home = true
 		minetest.set_player_privs(noob, pPrivs)
 	end
+	noobs = {}
 	saveNoobs(noobDataPath)
 end
 
